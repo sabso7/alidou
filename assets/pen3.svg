@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="284.000000pt" height="75.000000pt" viewBox="0 0 284.000000 79.000000"
+ preserveAspectRatio="xMidYMid meet">
+<filter x="-5%" y="-5%" width="110%" height="110%" filterUnits="objectBoundingBox" id="strokeStyle">
+    <feTurbulence type="fractalNoise" baseFrequency="0.5" numOctaves="5" result="f1" stitchTiles="stitch"></feTurbulence>
+    <feColorMatrix type="matrix" values="0 0 0 0 0, 0 0 0 0 0, 0 0 0 0 0, 0 0 0 -1.5 1.5" result="f2">
+    </feColorMatrix>
+    <feComposite operator="in" in2="f2b" in="SourceGraphic" result="f3"></feComposite>
+    <feTurbulence type="fractalNoise" baseFrequency="0" numOctaves="9" result="noise"></feTurbulence>
+    <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="8" in="f3" result="f4"></feDisplacementMap>
+</filter>
+<g transform="translate(0.000000,75.000000) scale(0.100000,-0.100000)">
+<path d="M1938 691 c-31 -10 -75 -32 -97 -48 -41 -30 -101 -98 -101 -114 0 -5
+-361 -9 -805 -9 -771 0 -807 -1 -843 -19 -38 -19 -73 -71 -86 -124 -11 -45 12
+-108 54 -149 l38 -38 819 0 819 0 37 -49 c41 -56 106 -105 168 -126 58 -21
+239 -20 310 1 169 50 314 174 433 371 63 105 56 168 -19 193 -29 10 -41 8 -90
+-14 -88 -41 -120 -36 -204 30 -108 84 -167 108 -281 111 -72 2 -109 -1 -152
+-16z m260 -68 c24 -8 81 -44 128 -79 114 -84 168 -93 270 -44 77 38 83 12 22
+-91 -136 -226 -323 -348 -534 -349 -92 0 -154 23 -217 80 -189 172 -103 463
+147 500 63 9 127 4 184 -17z m-1038 -273 l0 -101 -521 3 -521 3 -19 24 c-39
+48 -37 104 6 147 l24 24 516 0 515 0 0 -100z" style="fill:#000000;fill-opacity:0;stroke:#d54401ff;stroke-width:30.3066;stroke-dasharray:none;stroke-opacity:9"/>
+</g>
+</svg>

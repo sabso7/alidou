@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="cadre.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient5169-1">
+      <stop
+         style="stop-color:#000000;stop-opacity:0.9848485;"
+         offset="1"
+         id="stop5178" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop5180" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5169-1"
+       id="linearGradient5171"
+       x1="30.821535"
+       y1="152.22229"
+       x2="180.36975"
+       y2="152.22229"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.9127815,0,0,0.96178146,10.189445,9.3440995)" />
+  </defs>
+  <linearGradient id="linear-gradient-r1">
+    <stop offset="0%" stop-color="#d54401ff" stop-opacity="100%"></stop>
+    <stop offset="100%" stop-color="#d54401ff" stop-opacity="100%"></stop>
+   </linearGradient>
+   <filter x="-5%" y="-5%" width="110%" height="110%" filterUnits="objectBoundingBox" id="strokeStyle">
+      <feTurbulence type="fractalNoise" baseFrequency="0.5" numOctaves="5" result="f1" stitchTiles="stitch"></feTurbulence>
+      <feColorMatrix type="matrix" values="0 0 0 0 0, 0 0 0 0 0, 0 0 0 0 0, 0 0 0 -1.5 1.5" result="f2">
+      </feColorMatrix>
+      <feComposite operator="in" in2="f2b" in="SourceGraphic" result="f3"></feComposite>
+      <feTurbulence type="fractalNoise" baseFrequency="0" numOctaves="9" result="noise"></feTurbulence>
+      <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="8" in="f3" result="f4"></feDisplacementMap>
+   </filter>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layer 1">
+    <rect
+       style="fill:#000000;fill-opacity:0;stroke:url(#linear-gradient-r1);stroke-width:2.3066;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4636"
+       width="136.26334"
+       height="179.75542"
+       x="38.443523"
+       y="65.870964" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     filter="url(#strokeStyle)">
+    <rect
+       style="fill:#ffffff;fill-opacity:0;stroke:url(#linear-gradient-r1);stroke-width:2.566544;stroke-opacity:1"
+       id="rect4639"
+       width="137.22705"
+       height="175.62549"
+       x="33.455727"
+       y="68.327759" stroke="url(#linear-gradient-r1)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Layer 4"
+     >
+    <ellipse
+       style="fill:#d54401ff;fill-opacity:0.8;stroke:url(#linear-gradient-r1);stroke-width:1.264583;stroke-opacity:1"
+       id="path4871"
+       cx="143.99405"
+       cy="106.96702"
+       rx="20.178761"
+       ry="20.37467" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 3"
+     style="display:inline;fill:#fafafa;fill-opacity:1"
+     >
+    <path
+       style="fill:#d54401ff;fill-opacity:0.1;stroke:url(#linear-gradient-r1);stroke-width:1.264583;stroke-opacity:1"
+       d="m 33.696568,177.49472 11.75462,-15.281 7.444589,-16.06464 5.877309,-5.87731 8.620053,-0.39182 3.526385,-2.35092 7.052771,1.9591 3.918206,12.93008 3.134564,19.98285 6.26913,2.35092 5.093666,3.13457 5.485489,-5.09367 6.66094,-10.57916 11.3628,-10.57915 9.79552,1.56728 5.8773,9.01187 7.4446,9.01187 2.35092,13.32191 12.93008,4.31002 10.57915,-4.70185 1.17546,-3.52638 0.39183,63.08311 H 33.696568 Z"
+       id="path4816" />
+  </g>
+</svg>
