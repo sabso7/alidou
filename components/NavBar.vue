@@ -3,7 +3,7 @@
   <div class="container flex flex-wrap justify-between items-center mx-auto">
     <div class="rounded-full md:bg-emerald-700 drop-shadow-2xl">
       <a href="/" class="flex items-center">
-        <img src="../assets/logo-alidou-menu-site.png" class="h-20 rounded-lg m-2 md:block hidden" alt="alidou logo"/>
+        <img src="../assets/logo-alidou-menu-site.png" class="lg:h-20 h-12 rounded-lg m-2 md:block hidden" alt="alidou logo"/>
       </a>
     </div>
     
@@ -12,7 +12,7 @@
       <img src="../assets/Logo2.svg" class="h-12 p-2 rounded-lg m-2 md:hidden" alt="alidou logo"/>
     </button>
     <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-      <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium">
+      <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 lg:text-lg lg:font-medium text-sm">
         <li>
           <nuxt-link to="/" class="block py-2 pr-4 pl-3 text-emerald-700 rounded md:bg-transparent dark:text-emerald-700 comFont" aria-current="page">Accueil</nuxt-link>
         </li>
